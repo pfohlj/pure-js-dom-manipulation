@@ -346,10 +346,9 @@ function buildBody() {
     var instructionParagraph = document.createElement('p');
     instructionContainer.appendChild(instructionParagraph);
 
-    var instructionText1 = "Please use the arrow buttons to change which cell in the table"
-                         + " is selected.  To mark or unmark a cell, please use the button"
-                         + " with the ";
-    var instructionText2 = " symbol. Enjoy!"
+    var instructionText1 = "Use the arrow buttons to change which cell is selected.  To "
+                         + "mark or unmark a cell, use the button with the ";
+    var instructionText2 = " symbol."
 
     var instruction1 = document.createTextNode(instructionText1);
     var instructionSpan = document.createElement('span');
